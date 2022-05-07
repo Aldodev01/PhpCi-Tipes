@@ -20,6 +20,9 @@ class Siswa extends CI_Controller{
     public function halaman_tambah(){
         $this->load->view('halaman_tambah');
     }
+        public function kelompok(){
+        $this->load->view('kelompok');
+    }
 
     public function fungsiTambah(){
         
